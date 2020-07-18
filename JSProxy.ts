@@ -42,7 +42,6 @@ export default class JSProxy {
     }
   }
 
-  // 报错也不会走到这里，暂时不知道干嘛用的
   onError(errorMsg: any): void {
     console.log('JSProxy onError:' + errorMsg)
   }
